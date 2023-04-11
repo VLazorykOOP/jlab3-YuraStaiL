@@ -1,6 +1,6 @@
 public class Rational extends Pair {
-    private int numerator; // Чисельник
-    private int denominator; // Знаменник
+    private final int numerator; // Чисельник
+    private final int denominator; // Знаменник
 
     // Конструктор
     public Rational(int numerator, int denominator) {

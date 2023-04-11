@@ -1,5 +1,4 @@
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class Main {
@@ -7,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(" Lab 3");
 
+        // 2
         System.out.println("Task 1");
         Person person = new Person("USA", "John", "Higner", 22, 182);
         Worker worker = new Worker("Italy", "Alex", 32, 160, 1700, new GregorianCalendar(2022, Calendar.MAY, 11).getTime());
@@ -19,6 +19,8 @@ public class Main {
             System.out.println(people[i].show());
         }
 
+        // 6
+        // Комплексні
         System.out.println("\nTask 2");
         Complex c1 = new Complex(1, 2);
         Complex c2 = new Complex(3, 4);
@@ -39,6 +41,8 @@ public class Main {
         System.out.println(r4);
         System.out.println(r5);
 
+        // 6
+        // Комплексні
         System.out.println("\nTask 3");
         PairInterface ci1 = new ComplexInter(1, 2);
         PairInterface ci2 = new ComplexInter(3, 4);

@@ -1,9 +1,9 @@
 public class Person {
-    private String country;
-    private String name;
-    private String education;
-    private int age;
-    private int height;
+    private final String country;
+    private final String name;
+    private final String education;
+    private final int age;
+    private final int height;
 
     public Person()
     {
